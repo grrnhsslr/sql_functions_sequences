@@ -48,6 +48,6 @@ END;
 $$;
 
 -- answer to question 2
-SELECT * FROM filmsInCategory(1);
+SELECT count(*) FROM filmsInCategory(1);
 
 
